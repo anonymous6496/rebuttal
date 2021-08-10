@@ -111,6 +111,7 @@ We refer to answer 2- made to reviewer maGM.
 We refer to answer 1- made to reviewer maGM.
 
 3- *Extremely, how does the method compare under a standard balanced scenario?*
+
 We refer to answer 6- made to reviewer maGM.
 
 ## Choice of methods studies and reproduced

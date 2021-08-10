@@ -1,6 +1,6 @@
 # Figure A - Accuracy of all methods versus Dirichlet parameter
 
-TBD
+<img src="acc_vs_dirichlet.png" width="900" height="400"/>
 
 # Figure B - Simplex plot of Dirichlet(0.5,0.5,0.5)
 
@@ -20,4 +20,4 @@ Linear imbalance corresponds to all viables distributions (at least 1 sample in 
 
 # Figure E - Plot for 10 and 20-shot
 
-TBD
+<img src="10_20_shot.png" width="701" height="500"/>

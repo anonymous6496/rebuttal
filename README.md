@@ -8,6 +8,9 @@ TBD
 
 # Figure C - Comparison between Dirichlet / Step / Linear
 
+Step imbalance corresponds to one of the following repartition of samples [1, 9, 9] or [1, 1, 9] or [1, 1, 1]
+Linear imbalance corresponds to all viables distributions (at least 1 sample in each class) with a total of 15 samples, e.g [5 - i, 5, 5 + i] for i <= 4.
+
 <img src="dirichlet.png" width="700" height="500"/>
 
 

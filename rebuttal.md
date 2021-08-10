@@ -56,7 +56,7 @@ literature is also an important contribution of our work, and which might be eve
 We plot in Fig. D the optimal value of $\alpha$ (on validation) for different values of $\boldsymbol{a}$. We observe an expected behavior: As $\mathbf{a}$ increases (i.e the query sets in testing become more and more balanced), the optimal value of $\alpha$ decreases and tend to 1 (which approaches the standard mutual information), with a trend that closely matches $\alpha^*=\frac{\text{const.}}{a} + 1$. 
 
 
- 5- *Correlation between $\alpha$ and the number of shots?*
+ 5- *Correlation between $\alpha$ and the number of shots? What are the optimal’s for higher shot settings (e.g. 10-shot, 20-shot)?*
 
  As illustrated in Fig. E, the behaviour for 10-shot and 20-shot is quite similar to 5-shot, with the performances reaching a plateau when $\alpha$ is bigger than a certain value.
 
@@ -66,7 +66,7 @@ We plot in Fig. D the optimal value of $\alpha$ (on validation) for different va
 
 ## Performance of $\alpha$-TIM
 
-7- *Claim on recent studies [32, 33, 34, 35]:*
+7- *Claim on recent studies [32, 33, 34, 35] and inductive methods*
 
  We fully agree with the reviewer. In fact, we point this out in l.278-280, stating that inductive methods do not use the statistics of the query set at adaptation and are, therefore, unaffected by class imbalance. We also concede that the wording of l.121 was misleading, and we will modify it. "Even these works" should in fact read "Even [32]", as [32] evaluates both the popular MAML and a transductive variant  (transductive through the use of transductive batch normalization), which could be affected by changes in the query-set balance (as shown in Table B provided in this rebuttal). 
 

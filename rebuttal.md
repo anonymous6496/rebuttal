@@ -137,6 +137,6 @@ Fig. A we provide, showing the performances of the top-5 transductive methods ve
 
 ## Hyperparameter tuning
 
-- *In Table 1, how is the $\alpha$ parameter tuned? Which values of $\alpha$ are reported in the table? Similarly for TIM, how is $\lambda$ tuned and which values are reported?*
+7- *In Table 1, how is the $\alpha$ parameter tuned? Which values of $\alpha$ are reported in the table? Similarly for TIM, how is $\lambda$ tuned and which values are reported?*
 
 As mentioned in lines. 261-264, we tune every hyper-parameter (including $\alpha$ and $\lambda$) using validation tasks with fixed Dirichlet parameter $a=1$, corresponding to uniformly random tasks. The range of values used to tune $\alpha$ on the validation tasks is the following goes from 1 to 10 by step of 1, while the range to validate $\lambda$ goes from 0 to 2, by step of 0.25. For each method, the best value obtained on validation tasks is then selected. The idea was to keep the hyperparameter budget similar, as mentioned in l.298.

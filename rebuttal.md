@@ -114,7 +114,7 @@ We refer to answer 1- made to reviewer maGM.
 
 We refer to answer 6- made to reviewer maGM.
 
-## Choice of methods studies and reproduced
+## Choice of methods studied and reproduced
 
 4- *Why is the paper focused only on transfer learning and not on meta-learning approaches? The current study is not comprehensive.*
 
